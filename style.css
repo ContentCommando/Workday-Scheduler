@@ -20,6 +20,7 @@ header {
   border-radius: 0;
   border-bottom: 10px solid black;
   padding: 60px;
+  margin-bottom: 30px;
 }
 
 .description {
@@ -33,7 +34,7 @@ header {
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  /* height: 80px; */
   border-top: 1px solid white;
 }
 
@@ -63,10 +64,15 @@ header {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
-  color: white;
+  color: white;  
+}
+
+.saveBtn:hover {
+  background-color: #1299b8;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+  color: #000000;  
 }
