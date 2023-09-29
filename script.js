@@ -1,6 +1,6 @@
 // Put code in container using{}
-var localeSettings = {};
-    dayjs.locale(localeSettings);
+var locSetup = {};
+    dayjs.locale(locSetup);
 
 // Function to run when DOM is loaded.
     $(function () {
